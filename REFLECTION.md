@@ -7,4 +7,4 @@ the hardest part to understand was how `this` works in each method. It was confu
 This code uses `this` to tie data and behavior together by connecting the playlist’s data with the actions it can do. Each method uses `this` to make sure it's working with the correct playlist.
 
 ### What would you do differently if you wrote this object from scratch?
-What i would do differently if I wrote this object from scratch would be to add an `Array` which would include the following: song title, author, and duration. This would be for my own personal song playlist.
+What i would do differently if I wrote this object from scratch would be to add the songs as objects rather than strings. Each song would include title, author, and duration which would reflect a more realistic music playlist.
