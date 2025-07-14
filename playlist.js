@@ -36,6 +36,15 @@ Playlist.prototype.listSongs = function() {
   console.log("Songs:", this.songs.join(", "));
 };
 
+// Improvement Suggestion: Add a method to repeat the currently playing song
+// New Method: Repeats the current song
+Playlist.prototype.repeatSong = function() {
+  if (this.currentSong) {
+    console.log("Replaying:", this.currentSong);
+  } else {
+    console.log("No song is currently playing to repeat.");
+  }
+};
 
 let myMix = new Playlist("My Chill Mix");
 myMix.addSong("Lofi Study");
